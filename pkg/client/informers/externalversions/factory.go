@@ -27,9 +27,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "k8s.io/sample-controller/pkg/client/clientset/versioned"
-	internalinterfaces "k8s.io/sample-controller/pkg/client/informers/externalversions/internalinterfaces"
-	samplecontroller "k8s.io/sample-controller/pkg/client/informers/externalversions/samplecontroller"
+	versioned "github.com/ogre0403/sample-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/ogre0403/sample-controller/pkg/client/informers/externalversions/internalinterfaces"
+	samplecontroller "github.com/ogre0403/sample-controller/pkg/client/informers/externalversions/samplecontroller"
 )
 
 type sharedInformerFactory struct {

@@ -21,8 +21,8 @@ package v1alpha1
 import (
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "k8s.io/sample-controller/pkg/apis/samplecontroller/v1alpha1"
-	"k8s.io/sample-controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/ogre0403/sample-controller/pkg/apis/samplecontroller/v1alpha1"
+	"github.com/ogre0403/sample-controller/pkg/client/clientset/versioned/scheme"
 )
 
 type SamplecontrollerV1alpha1Interface interface {
